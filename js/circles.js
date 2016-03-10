@@ -10,7 +10,7 @@
     this._radius         = options.radius;
     this._percentage     = options.percentage;
     this._text           = options.text; // #3
-    this._number         = options.number || this._percentage;
+    this._number         = options.number *10|| this._percentage;
     this._strokeWidth    = options.width  || 10;
     this._colors         = options.colors || ['#EEE', '#F00'];
     this._interval       = 16;
