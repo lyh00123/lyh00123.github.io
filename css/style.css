@@ -805,6 +805,11 @@ p.copy-right a{
 		left: 47%;
 	}
 }
+@media(max-width:375px){
+	.portfolio-grid{
+		width: 23%;
+	}
+}
 @media (max-width:320px){
 
 	.container {
