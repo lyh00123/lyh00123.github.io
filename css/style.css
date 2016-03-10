@@ -493,6 +493,11 @@ p.copy-right a{
 		width: 100%;
 		left: 2%;
 	}
+	.banner-info .bannerlogo img{
+		position: absolute;
+		left: 10%;
+		top:18px;
+	}
 	a.downarrow {
 		top: 241px;
 		left: 32%;
@@ -547,8 +552,8 @@ p.copy-right a{
 	.footer {
 		padding: 0 0 10em;
 	}
-	.portfolio-grids:nth-child(1) .portfolio-grid:nth-child(3)>.rightarrow{
-		margin-top: 138px;
+	.portfolio-grids .portfolio-grid:nth-child(3)>.rightarrow{
+		/*margin-top: 138px;*/
 	}
 }
 @media (max-width:640px){
@@ -706,6 +711,7 @@ p.copy-right a{
 	}
 	.years {
 		margin-bottom: 2em;
+		margin-top: 3em;
 	}
 	.header-section h2 {
 		padding: 0.8em 0 0.5em 0;
@@ -750,7 +756,7 @@ p.copy-right a{
 		font-size: 18px;
 	}
 	.portfolio-grid p{
-		font-size: 14px;
+		font-size: 12px;
 	}
 	a.portdown {
 		margin: 1em 0 2em 0em;
@@ -762,9 +768,9 @@ p.copy-right a{
 		padding: 0 0 6em;
 	}
 	.about span p {
-		margin-bottom: 2em;
+		margin-bottom: 1em;
 		width: 100%;
-		line-height: 1.6em;
+		line-height: 1em;
 	}
 	.nav ul{
 		margin:0;
