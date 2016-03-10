@@ -753,7 +753,7 @@ p.copy-right a{
 		padding: 0 0 2em 0;
 	}
 	.portfolio-grid h3{
-		font-size: 18px;
+		font-size: 0.5em;
 	}
 	.portfolio-grid p{
 		font-size: 12px;
@@ -836,6 +836,13 @@ p.copy-right a{
 	.banner-info {
 		width: 80%;
 	}
+	.bannerlogo{
+		position: relative;
+	}
+	.banner-info .bannerlogo img{
+		position: absolute;
+		top: -5px;left: 32%;
+	}
 	.footer-right input[type="text"], .footer-right textarea {
 		width: 100%;
 		padding: 0.8em;
@@ -907,7 +914,7 @@ p.copy-right a{
 		width: 23%;
 	}
 	.portfolio-grid h3{
-		font-size: 12px;
+		font-size: 0.2em;
 	}
 	.portfolio-grid p{
 		font-size: 0px;
