@@ -1,29 +1,37 @@
 .clearfix:before,.clearfix:after{content: " ";display: table;}
-.clearfix:after{clear: both;}
+.clearfix:after{clear:both;}
 .clearfix{zoom:1;clear: both;}
-@keyframes change{
-	0%{text-shadow: 0 0 0 #fff;}
-	100%{text-shadow: 3px 3px 20px #6f6f6f;}
-}
-@font-face{font-family: myFont;
-         	src:url(../font/every/grot_cb-webfont.eot),
-         		url(../font/every/grot_cb-webfont.ttf),
-         		url(../font/every/grot_cb-webfont.woff),
-         		url(../font/every/grot_cb-webfont.svg)
-         }
-body{font-size: 10px;}
-.wrap{width: 96%;margin:0 auto;/*border: 1px solid red;*/}
-header {border-bottom: 5px double #d6d5d5;}
-header div{width: 100%;height: 42px;background-image: url(../images/header-top_02.png);background-repeat: repeat-x;}
-header h1{font-family:myFont;margin-top: 32px;text-shadow:1px 2px 0 #dad7d7;font-size: 3.5em;color: #0d0c0c;}
-header  nav{width: 100%;height: 39px;margin:0 auto;display: table;margin-bottom :23px;margin-top: 30px;background-image: -webkit-linear-gradient(top,#fefefe,#e3e3e3);background-image: -moz-linear-gradient(top,#fefefe,#e3e3e3);/*border: 1px solid red;*/font-family:myFont;}
-header  nav ul {list-style: none;display: table-row;}
-header  nav ul li{display: table-cell;vertical-align: middle;}
-header  nav ul li:first-child{text-align: left;}
-header  nav ul li:last-child{text-align:right;}
-header  nav ul li a{text-decoration: none;font-size: 2.1em;color:#010001;}
-header  nav ul li a:hover{animation:change 1s infinite alternate;}
-header  nav ul li:nth-child(2n+1)>a{color:#fe0208;}
-footer {width:100%;margin: 0 auto;border-top: 5px double #d6d5d5;}
-footer  p{margin-top: 32px;font-size: 1.5em;color: #757474;text-align: center;font-family:myFont;} 
-footer div{margin-top: 35px;width: 100%;height: 42px;background-image: url(../images/footer-bottom_26.png);background-repeat: repeat-x;}
+body{font-family: arial;background-color: #0d0d0d;}
+header{background-image:-webkit-radial-gradient(center,#242424,#0e0e0e);
+		background-image:-moz-radial-gradient(center,#242424,#131313);}
+header .top-inner,.banner-inner{width: 958px;margin: 0 auto;}
+header .top-inner h1{/*background-color: red;*/float:left;width: 210px;height: 38px;margin:44px 0 44px 24px;
+		font-size:45px;color: #f7f7f7;text-shadow:1px 1px 0 #707070;
+	/*background-image: url(../images/logo_03.png);text-indent: -100%;overflow: hidden;*/}
+header h1:first-letter{color:#f04e04;}
+header .top-inner .right{float: right;margin-top: 68px;margin-right: 25px;}	
+header .top-inner .right a{text-decoration: none;font-size: 12px;color: #fff;margin-left: 34px;}	
+header nav {float: left;width: 958px;background-image:-webkit-linear-gradient(top,#fff,#dcdcdc);
+	background-image:-moz-linear-gradient(top,#fff,#dcdcdc);border-radius: 10px;}
+header nav ul li{float: left;border-left:1px solid #e2e2e2;}
+header nav ul li:first-child a{background-image:-webkit-linear-gradient(top,#f15405,#e82d02);
+						background-image:-moz-linear-gradient(top,#f15405,#e82d02);}
+header nav ul li a{height: 55px;display:block;text-decoration: none;/**margin-top:21px;*/color:#141414;font-size: 12px;line-height: 55px;padding: 0px 72px;padding: 0px 71px\0/;*padding:0 71px 21px 71px;border-bottom:1px solid #f7f7f7;} 
+header nav ul li a:hover{background-image:-webkit-linear-gradient(top,#f15405,#e82d02);
+						background-image:-moz-linear-gradient(top,#f15405,#e82d02);}
+header .banner-inner{margin-top: 50px;}
+header .banner-inner .left{float: left;}
+header .banner-inner>article{float: right;width: 274px;}
+header .banner-inner>article h1{font-size: 39px;color: #ec4003;}
+header .banner-inner>article h2{margin-top: 10px;font-size: 24px;color: #e7e7e7;}
+header .banner-inner>article p{margin-top: 30px;font-size: 12px;color: #7a8080;}
+header .banner-inner>article a{display:block;width: 150px;height: 45px;margin: 31px 0 90px 64px;
+	background-image:-webkit-linear-gradient(top,#fff,#dcdcdc);
+	background-image:-moz-linear-gradient(top,#fff,#dcdcdc);
+	border-radius: 10px;
+	font-size:14px;color: #0d0d0d;text-decoration: none;line-height: 45px;text-align: center;}
+footer{margin-bottom: 18px;border-bottom:1px solid #fff;
+	background-image:-webkit-linear-gradient(top,#fff,#dcdcdc);
+    background-image:-moz-linear-gradient(top,#fff,#dcdcdc);}
+footer .footer-inner p{margin-top: 40px;padding-bottom: 18px;font-size:12px;color: #0d0d0d;text-align: center;}
+footer .footer-inner a{color:#e82d02;}
